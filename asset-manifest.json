@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.317301d5.chunk.css",
-    "main.js": "/portfolio-app/static/js/main.a999fda6.chunk.js",
-    "main.js.map": "/portfolio-app/static/js/main.a999fda6.chunk.js.map",
+    "main.css": "/portfolio-app/static/css/main.daf1b346.chunk.css",
+    "main.js": "/portfolio-app/static/js/main.8a376afd.chunk.js",
+    "main.js.map": "/portfolio-app/static/js/main.8a376afd.chunk.js.map",
     "runtime-main.js": "/portfolio-app/static/js/runtime-main.493a8754.js",
     "runtime-main.js.map": "/portfolio-app/static/js/runtime-main.493a8754.js.map",
-    "static/js/2.edecf96b.chunk.js": "/portfolio-app/static/js/2.edecf96b.chunk.js",
-    "static/js/2.edecf96b.chunk.js.map": "/portfolio-app/static/js/2.edecf96b.chunk.js.map",
+    "static/js/2.78b8bc09.chunk.js": "/portfolio-app/static/js/2.78b8bc09.chunk.js",
+    "static/js/2.78b8bc09.chunk.js.map": "/portfolio-app/static/js/2.78b8bc09.chunk.js.map",
     "index.html": "/portfolio-app/index.html",
-    "static/css/main.317301d5.chunk.css.map": "/portfolio-app/static/css/main.317301d5.chunk.css.map",
-    "static/js/2.edecf96b.chunk.js.LICENSE.txt": "/portfolio-app/static/js/2.edecf96b.chunk.js.LICENSE.txt"
+    "static/css/main.daf1b346.chunk.css.map": "/portfolio-app/static/css/main.daf1b346.chunk.css.map",
+    "static/js/2.78b8bc09.chunk.js.LICENSE.txt": "/portfolio-app/static/js/2.78b8bc09.chunk.js.LICENSE.txt",
+    "static/media/api.e082a492.png": "/portfolio-app/static/media/api.e082a492.png",
+    "static/media/computer.0f46c7de.png": "/portfolio-app/static/media/computer.0f46c7de.png",
+    "static/media/covid_tracker.3086e650.png": "/portfolio-app/static/media/covid_tracker.3086e650.png",
+    "static/media/css.5227db3a.png": "/portfolio-app/static/media/css.5227db3a.png",
+    "static/media/dictionary.d55fb106.png": "/portfolio-app/static/media/dictionary.d55fb106.png",
+    "static/media/html5.5180416a.png": "/portfolio-app/static/media/html5.5180416a.png",
+    "static/media/js.029db7d4.png": "/portfolio-app/static/media/js.029db7d4.png",
+    "static/media/news.f8317de5.png": "/portfolio-app/static/media/news.f8317de5.png",
+    "static/media/react.73ac128a.png": "/portfolio-app/static/media/react.73ac128a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.493a8754.js",
-    "static/js/2.edecf96b.chunk.js",
-    "static/css/main.317301d5.chunk.css",
-    "static/js/main.a999fda6.chunk.js"
+    "static/js/2.78b8bc09.chunk.js",
+    "static/css/main.daf1b346.chunk.css",
+    "static/js/main.8a376afd.chunk.js"
   ]
 }
