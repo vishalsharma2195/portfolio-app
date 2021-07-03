@@ -7,15 +7,21 @@ function Topbar({menuOpen, setMenuOpen}) {
         <div className={"topbar  " + (menuOpen && "active")} >
             <div className="wrapper">
             <div className="left">
-                <a href='#intro'className='logo'><Home className='logo-icon'/></a>
+                <a href='#intro'><Home className='logo-icon'/></a>
                 <div className="itemContainer">
+                    <a href="https://in.linkedin.com/" target="_blank" rel="noopener noreferrer">
                     <LinkedIn className='icon' />
+                    </a>
                     {/* <span>+91 252525</span> */}
                 </div>
                 <div className="itemContainer">
+                    <a href="https://www.gmail.com" target="_blank" rel="noopener noreferrer">
                     <Mail className='icon'/>
+                    </a>
                 </div><div className="itemContainer">
+                    <a href="https://github.com/vishalsharma2195?tab=repositories" target='_blank' rel="noopener noreferrer">
                     <GitHub className='icon'/>
+                    </a>
                 </div>
             </div>
             <div className="right">

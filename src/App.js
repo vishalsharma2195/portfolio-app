@@ -1,12 +1,11 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from './components/intro/Intro';
-import Portfolio from "./components/portfolio/Portfolio";
-import Works from './components/works/Works';
-import Testimonials from './components/testimonials/Testimonials';
-import Contact from './components/contact/Contact';
+import Skills from './components/skills/Skills';
+import Footer from "./components/footer/Footer";
 import './app.scss'
 import {useState} from 'react';
 import Menu from "./components/menu/Menu";
+import Projects from "./components/projects/Projects";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -16,10 +15,12 @@ function App() {
      <Menu menuOpen={menuOpen} setMenuOpen= {setMenuOpen} />
      <div className="sections">
        <Intro />
-       <Portfolio />
-       <Works />
-       <Contact />
+       <Skills />
+       <Projects />
      </div>
+        <div className='foot'>
+          <Footer />
+        </div>
     </div>
   );
 }

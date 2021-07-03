@@ -1,34 +1,26 @@
 import React from 'react';
 import './intro.scss';
-import { init } from 'ityped';
-import {useEffect, useRef} from "react";
+import computer from './computer.png';
+import down from './down.png';
 
 function Intro() {
-    const textRef = useRef();
-
-    useEffect(() => {
-        init(textRef.current, 
-            { 
-                showCursor: false, 
-                backDelay: 1500,
-                showCursor: true, 
-                strings: ['Developer', 'Designer' ] })
-    }, [])
     return (
         <div className='intro' id='intro'>
             <div className="left">
                 <div className="imgContainer">
-                    <img src="assests/computer.png" alt="" />
+                    <img src={computer} alt="" />
                 </div>
             </div>
             <div className="right">
                 <div className="wrapper">
                     <h2>Hi There, I'm</h2>
                     <h1>Vishal Sharma</h1>
-                    <h3>Front-End <span ref={textRef}></span></h3>
+                    <h3>I am a <span>Front-End Web Developer</span> and</h3>
+                    <h3>completed my graduation in <span>Computer Application</span></h3>
+                    <h3>from Manav Rachan International University</h3>
                 </div>
-                <a href="#portfolio">
-                    <img src="assests/down.png" alt="" />
+                <a href="#skills">
+                    <img src={down} alt="" />
                 </a>
             </div>
         </div>
