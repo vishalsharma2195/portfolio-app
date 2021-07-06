@@ -8,14 +8,13 @@ function Topbar({menuOpen, setMenuOpen}) {
             <div className="wrapper">
             <div className="left">
                 <a href='#intro'><Home className='logo-icon'/></a>
-                <div className="itemContainer">
+                {/* <div className="itemContainer">
                     <a href="https://in.linkedin.com/" target="_blank" rel="noopener noreferrer">
                     <LinkedIn className='icon' />
                     </a>
-                    {/* <span>+91 252525</span> */}
-                </div>
+                </div> */}
                 <div className="itemContainer">
-                    <a href="https://www.gmail.com" target="_blank" rel="noopener noreferrer">
+                    <a href="mailto:vishalsharma2195@gmail.com" target="_blank" rel="noopener noreferrer">
                     <Mail className='icon'/>
                     </a>
                 </div><div className="itemContainer">

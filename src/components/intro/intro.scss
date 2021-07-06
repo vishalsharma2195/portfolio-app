@@ -16,15 +16,16 @@
         display: flex;
         align-items: center;
         justify-content: center;
-            
-        .imgContainer{
-            width: 500px;
-            height: 500px;
-            
-            
             @include mobile{
-                margin-top: 20px;
-                padding-top: 20px;
+                flex-direction: column;
+            }
+        .imgContainer{
+            width: 400px;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            @include mobile{
                 width: 300px;
             }
         }
@@ -32,8 +33,7 @@
             height: 90%;
 
             @include mobile{
-                padding-top: 40px;
-                height: 60%;
+                height: 50%;
             }
         }
     }
@@ -46,9 +46,8 @@
             padding-left: 50px;
             display: flex;
             flex-direction: column;
-            
             justify-content: center;
-            
+            align-items: flex-start;
             @include mobile{
                 padding-left: 0;
                 align-items: center;

@@ -21,11 +21,12 @@
   
       .logo-icon{
         text-decoration: none;
-        font-size: 50px;
+        font-size: 40px;
         color: black;
         margin-right: 30px;
+        
         @include mobile{
-          color: lightgray;
+          margin-right: 5px;
         }
       }
   
@@ -36,10 +37,11 @@
         justify-content: space-between;
 
         @include mobile{
-         display: none;
+        //  display: none;
+        margin-right: 5px;
       }
         .icon {
-          font-size: 50px;
+          font-size: 40px;
           margin-right: 5px;
           cursor: pointer;
           color: black;
@@ -78,7 +80,14 @@
         background-color: $mainColor;
         color: white;
        
-        
+        .left{
+          .logo-icon{
+            color: white;
+          }
+        }
+        .itemContainer{
+          display: none;
+        }
         .hamburger{
             span{
                 &:first-child{
