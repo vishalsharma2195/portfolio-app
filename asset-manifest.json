@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.daf1b346.chunk.css",
-    "main.js": "/portfolio-app/static/js/main.8a376afd.chunk.js",
-    "main.js.map": "/portfolio-app/static/js/main.8a376afd.chunk.js.map",
+    "main.css": "/portfolio-app/static/css/main.ee599caa.chunk.css",
+    "main.js": "/portfolio-app/static/js/main.b29290bc.chunk.js",
+    "main.js.map": "/portfolio-app/static/js/main.b29290bc.chunk.js.map",
     "runtime-main.js": "/portfolio-app/static/js/runtime-main.493a8754.js",
     "runtime-main.js.map": "/portfolio-app/static/js/runtime-main.493a8754.js.map",
-    "static/js/2.78b8bc09.chunk.js": "/portfolio-app/static/js/2.78b8bc09.chunk.js",
-    "static/js/2.78b8bc09.chunk.js.map": "/portfolio-app/static/js/2.78b8bc09.chunk.js.map",
+    "static/js/2.d8bb4510.chunk.js": "/portfolio-app/static/js/2.d8bb4510.chunk.js",
+    "static/js/2.d8bb4510.chunk.js.map": "/portfolio-app/static/js/2.d8bb4510.chunk.js.map",
     "index.html": "/portfolio-app/index.html",
-    "static/css/main.daf1b346.chunk.css.map": "/portfolio-app/static/css/main.daf1b346.chunk.css.map",
-    "static/js/2.78b8bc09.chunk.js.LICENSE.txt": "/portfolio-app/static/js/2.78b8bc09.chunk.js.LICENSE.txt",
+    "static/css/main.ee599caa.chunk.css.map": "/portfolio-app/static/css/main.ee599caa.chunk.css.map",
+    "static/js/2.d8bb4510.chunk.js.LICENSE.txt": "/portfolio-app/static/js/2.d8bb4510.chunk.js.LICENSE.txt",
     "static/media/api.e082a492.png": "/portfolio-app/static/media/api.e082a492.png",
     "static/media/computer.0f46c7de.png": "/portfolio-app/static/media/computer.0f46c7de.png",
     "static/media/covid_tracker.3086e650.png": "/portfolio-app/static/media/covid_tracker.3086e650.png",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.493a8754.js",
-    "static/js/2.78b8bc09.chunk.js",
-    "static/css/main.daf1b346.chunk.css",
-    "static/js/main.8a376afd.chunk.js"
+    "static/js/2.d8bb4510.chunk.js",
+    "static/css/main.ee599caa.chunk.css",
+    "static/js/main.b29290bc.chunk.js"
   ]
 }
